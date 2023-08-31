@@ -67,5 +67,6 @@ static void ShowResults (decimal valueFee, decimal valuediscounts, decimal value
         totalPay = valueFee - valuePromotion;
     }
     Console.WriteLine("Total to pay:${0,12:N0}", totalPay);
+    Console.WriteLine($"Plis press the enter or control + C to finish");
     Console.ReadKey();
 }
